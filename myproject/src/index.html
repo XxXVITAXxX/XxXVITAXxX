@@ -6,13 +6,21 @@
     <meta name="author" content="Andrey">
     <meta name="robots" content="all">
     <meta property="og:title" content="Это моя первая страница...">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Виталий Мнемозина - Веб-разработчик</title>
-    <link rel="stylesheet" href="css/reset.css">
-     <link rel="stylesheet" href="css/style.css">
-         
+<!--    <link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
      
+      <link rel="stylesheet" href="css/style.css"> 
+      
+      
+   <script src="https://code.jquery.com/jquery-3.6.1.js"></script>  
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 
-<script>
+  
+         <script src="/src/js/bootstrap.bundle.min.js"></script>  
+  
+     <script>
   window.onload = function () {
     document.body.classList.add('loaded_hiding');
     window.setTimeout(function () {
@@ -21,119 +29,372 @@
     }, 500);
   }
 </script>
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
 </head>
 
-<body >
+ <div class="row-1 ">
+<nav class=" navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+
+  <div class="container-fluid ps-4">
+    <a class="navbar-brand offset-3 " href="#">Андрей браун</a>
+
+   
+      <ul class="nav  navbar-nav  ms-auto mb-2 mb-lg-0 
+       d-none d-lg-block float-end me-5 pe-4">
+        <li class="nav-item float-start">
+          <a class="nav-link" href="#">ОБО МНЕ</a>
+        </li> 
+          <li class="nav-item float-start">
+          <a class="nav-link" href="#">УСЛУГИ</a>
+        </li> 
+          <li class="nav-item float-start">
+          <a class="nav-link" href="#">КЕЙСЫ</a>
+        </li> 
+          <li class="nav-item float-start">
+          <a class="nav-link" href="#">ПРАЙС</a>
+        </li> 
+          <li class="nav-item float-start">
+          <a class="nav-link" href="#">ОТЗЫВЫ</a>
+        </li> 
+          <li class="nav-item float-start">
+          <a class="nav-link " href="#">КОНТАКТЫ</a>
+        </li> <li class="offset-2">
+        </li>
+      </ul>
+      
+       <div class="dropdown 
+        d-block d-lg-none ps-4">
+ <button class=" btn btn-secondary dropdown-toggle mx-4 " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  опции
+  </button>
+
+  <ul class="dropdown-menu">
+      
+        <li >
+          <a class="dropdown-item" href="#">ОБО МНЕ</a>
+        </li> 
+          <li >
+          <a class="dropdown-item" href="#">УСЛУГИ</a>
+        </li> 
+          <li >
+          <a class="dropdown-item" href="#">КЕЙСЫ</a>
+        </li> 
+          <li >
+          <a class="dropdown-item" href="#">ПРАЙС</a>
+        </li> 
+          <li >
+          <a class="dropdown-item" href="#">ОТЗЫВЫ</a>
+        </li> 
+          <li >
+          <a class="dropdown-item" href="#">КОНТАКТЫ</a>
+        </li>
+      
+       
+      </ul>
+</div>
+   </div>
+     
+    
+  </nav>
+  </div><body>
+<div class="container ">
+
    <div class="preloader">
   <div class="preloader__image"></div>
 </div>
     <header >
-        <nav >
-           
-            <div class="logo">Андрей Браун</div>
-            <div class="menu" >
-                <ul>
-                    <li><a href="#ABOUT" >Обо мне</a></li>
-                    <li><a href="#q"     >Услуги</a></li>
-                    <li><a href="#w"     >Кейсы</a></li>
-                    <li><a href="#e"     >Прайс</a></li>
-                    <li><a href="#r"     >Отзывы</a></li>
-                    <li><a href="#t"     >Контакты</a></li>
-                </ul>
-            
-            </div>
-        </nav>
+   
     </header>
-
-             
-    <div class="main">
-        <div class="title__container">
-            <h1>Привет <br> Я Андрей Браун</h1>
+</div>
+             <div class="container-fluid">
+       <div class="mai ">
+        <div class="container ">
+           <br>
+           <br>
+           <br>
+           <br>
+        
+           <br>   <br>   <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <div class="d-none d-lg-block container text-center "style="width: 45rem;" >
+           <div class="col-8 ">
+            <div class="h1 font-weight-bolder fs-1">Привет, <br> Я Андрей Браун</div>
+          
+            <div class="h6">Фулл стек веб-разработчик и Android-разработчик</div>
+         
+            <div class="one ">
+            
             <br>
-            <h4>Фулл стек веб-разработчик и Android-разработчик</h4>
-            <br><br><br><br>
-            <div class="one">
-      <a href="#ABOUT" >Обо мне</a>
-      <a href="#w"  >Мои работы</a>
-            </div>
+      <a class="btn btn-outline-secondary " href="#ABOUT" >Обо мне</a>
+      <a  class="btn btn-outline-secondary  " href="#w"  >Мои работы </a>
+            </div> </div></div>
+             
+             
+             
+             
+           
+            
+            
+            
+            
+            
             <br>
             <br>
             
         </div>
+           <div class=" d-lg-none d-block container text-center " style="width:100%;" >
+           <div class=" card text-bg-dark pb-3  opacity-75 col-12 ">
+            <div class="h1 font-weight-bolder fs-1">Привет, <br> Я Андрей Браун</div>
+          
+            <div class="h6">Фулл стек веб-разработчик и Android-разработчик</div>
+         
+            <div class="one ">
+            
+            <br>
+      <a class="btn btn-outline-light " href="#ABOUT" >Обо мне</a>
+      <a  class="btn btn-outline-light  " href="#w"  >Мои работы </a>
+            </div> </div></div>
+        </div>
+        
     </div>
  
-    <div class="about_me" >
+<div class="container col-12 text-center">
+          <div class="about_me text-center justify-content-center" >
        <a name="ABOUT"></a>
-  <h2>обо мне</h2>
+       <br>
+       <br>
+       <br>
+       <br>
+         &shy;
+  <h2 class="fw-bold"> Обо мне</h2>
         <p class=orang>_________<br>
         <br>
          <img class=foto  src="img/boy2.png" alt="фотка"></p>
      <br>
-     <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo non accusamus repellendus commodi saepe iste cum, error, <br>fugiat odio nobis ad vel expedita alias neque?</h3>
+     <div class="container col-8">
+     <h3 class="h5 justify-content-center" style="width: 100%;">Lorem ipsum dolor sit amet, iste cum, error, fugiat odio nobis ad vel expedita alias neque?</h3>
 <br>
-       <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptatem, voluptas. Qui fugit tempora voluptatum ducimus <br> quisquam in vitae quod cumque atque esse.</h3>
-       </div>
+       <h3 class="h5 justify-content-center">Lorem ipsum dolor sit amet, consectetur ducimus  quisquam in vitae quod cumque atque esse.</h3>
+       </div></div></div><div class="container col-8 text-center">
        <div>
+       <br>
    <form  action="...">
-           <div class="pet">
+           <div class="pet text-center">
             <input  type="submit" name="985" value="скачать резюме">
             </div>
             </form>
             </div>
-    <div class="skills">
+    <div class="skills text-center">
         <a name="q"></a>
         <div class="skills_container">
+           <div class="container ">
+           <br><br><br><br>
             <h2>Что я умею</h2>
             <p class=orang>_________ </p>
+            <div class=" d-xl-block d-none">    
+                      
+                  <div class="skills_item float-start" style="width: 25%;">
+                  <div class="container  text-center">
+                <img class="px-2" style="width: 4rem;" src="img/web.png" alt="">
+</div>
+                <h3  class=" my-4" style="width: 100%; height: 4rem;" >Веб&ndash;дизайн</h3>
+                <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+            </div>
             
-            <div class="skills_item">
-                <img class="pr" src="img/web.png" alt="">
-                <h3 >Веб-дизайн</h3>
-                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Laboriosam, vel.</p>
+            <div class="skills_item float-start" style="width: 25%;"><div class="container  ">
+                <img class="px-2"style="width: 4rem;" src="img/plus.png" alt=""></div>
+              
+                <h3 class=" my-4" style="width: 100%; height: 4rem;">Разработка</h3>
+                <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
             </div>
-            <div class="skills_item">
-                <img class="pr" src="img/plus.png" alt="">
+            
+            <div  class="skills_item float-start" style="width: 25%;">
+               <div class="container  ">
+                <img class="px-2"style="width: 4rem;" src="img/rak.png" alt=""></div>
+              
+                <h3 class="my-4" style="width: 100%; height: 4rem;">СЕО&ndash;оптимизация</h3>
+                <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+            </div>
+            
+            <div class="skills_item float-start" style="width: 25%;"><div class="container  ">
+                <img class="px-2" style="width: 4rem;" src="img/ryp.png" alt=""></div>
+         
+                <h3 class="my-4" style="width:100%; height: 4rem;">Маркетинг</h3>
+                <p class="px-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit. Laboriosam, vel.</p>
+            </div>
+    </div>  </div>  </div>   </div>   
+               
+               
+               
+               
+                <div class=" d-xl-none d-lg-block d-none">    
+                    
+                          
+                     <div class="skills_item float-start" style="width: 50%;">
+                <img class="lipton" style="width: 4rem ; height: 3rem;" src="img/web.png" alt=""><br><br>
+                <h3 class="">Веб&ndash;дизайн</h3>
+                <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+            </div>
+            <div class="skills_item float-start" style="width: 50%;">
+                <img class="lipton "style="width: 4rem ; height: 3rem;" src="img/plus.png" alt="">
                 <p></p>
-                <h3 >Разработка</h3>
-                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Laboriosam, vel.</p>
+                <h3 class="m-4 mb-2 mx-0">Разработка</h3>
+                <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
             </div>
-            <div  class="skills_item">
-                <img class="pr" src="img/rak.png" alt="">
-                <p></p>
-                <p></p>
-                <h3 >СЕО-оптимизация</h3>
-                <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Laboriosam, vel.</p>
+             	&shy;<br>
+            <div  class="skills_item float-start" style="width: 50%;">
+                <img class="mt-1 lipton"style="width: 4rem ; height: 3rem;" src="img/rak.png" alt="">
+              
+                <h3 class="">СЕО&ndash;оптимизация</h3>
+                <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
             </div>
-            <div class="skills_item">
-                <img class="pr" src="img/ryp.png" alt="">
-                <p></p><p></p><p></p>
-                <h3 >Маркетинг</h3>
-                <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Laboriosam, vel.</p>
+            <div class="skills_item float-start" style="width: 50%;">
+                <img class="" style="width: 4rem ; height: 3rem;" src="img/ryp.png" alt="">
+               
+                <h3 class="mt-1">Маркетинг</h3>
+                <p class="m-1 p-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit. Laboriosam, vel.</p>
+            </div>  </div></div>
+
+
+   <div class="container col-10 text-center">
+                <div class="d-xl-none d-lg-none d-block">  
+                          <div class="m-4 ">
+                  <div class="skills_item float-start" style="width: 50%;">
+                        <div class="container">
+                <img class="lipton" style="width: 5rem ; height: 4rem;" src="img/web.png" alt="">
+                 </div>
+                 <br>
+              
+               
+                <button style="width: 90%; height: 4rem;" type="button" class="btn btn-secondary " data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel."   id="liveToastBtn">
+  Веб&ndash;дизайн
+</button>
+            </div> </div> <div class="m-4 ">
+            <div class="skills_item float-start" style="width: 50%;">
+                     <div class="container">
+                <img class="px-2 " style="width: 5rem ; height: 4rem;" src="img/plus.png" alt="">
+             </div>
+             <br>
+            
+            
+              <button 
+              style="width:90%; height: 4rem;" 
+              type="button" 
+              class="btn btn-secondary "
+               data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-title="  
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel."   
+                id="liveToastBtn">
+Разработка
+</button></div></div>
+      
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>  <br>
+         
+           
+           
+               <div class="m-4 ">
+            <div  class="skills_item float-start" style="width: 50%;">
+                     <div class="container  " >
+                <img class="px-2" style="width: 5rem ; height: 4rem;" src="img/rak.png" alt="">
+                </div>
+                <br>
+                
+               
+                 <button 
+                 style="width:90%;height: 4rem;"
+                  type="button" 
+                 class="btn btn-secondary  " 
+                 data-bs-toggle="tooltip" 
+                 data-bs-placement="bottom" 
+                 data-bs-title="  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel."  
+                  id="liveToastBtn">
+СЕО&ndash;
+оптимизация
+</button>
+  </div>
+            </div> 
+            <div class="   m-4">
+            <div class="skills_item float-start text-center" style="width: 50%;">
+               <div class="container">
+                <img class=" px-2" style="width: 5rem ; height: 4rem;" src="img/ryp.png" alt="">
+        </div>
+        <br>
+      
+                  <button style="width: 90%; height: 4rem;" 
+                  type="button" 
+                  class="btn btn-secondary "
+                   data-bs-toggle="tooltip" 
+                   data-bs-placement="bottom" 
+                   data-bs-title="  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel."
+                id="liveToastBtn">
+Маркетинг
+</button>
+  </div>
+      
+         
+          
+
+
+
+
             </div>
-    </div>    </div>
-    <br>
-    <br><br>
-     <div class="case">
+
+
+
+
+  </div> </div> 
+ <div class="container col-8 text-center">
+
+  <br> <br> <br> 
+  <br>
+    <br><br><br>
+     <div class="case clearfix">
         <a name="w"></a>
         <div class="case_container">
         <br>
-         <br>
+         <br><br><br>  <br><br><br>
+         
+         
           <h2 >КЕЙСЫ</h2>
            <p class=orang>_________ </p>
         <p class="room">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
           <div class="rok">
-         
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/lot.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/lot.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/lot.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+
+</div>
           <br>
-           <img class="lot" src="img/lot.png" width="900" height="450"alt="фотошка">
+           
            <br>
            <br>
            <br>
            </div>
           
-        <DIV class="case_down">
+        <DIV class="  case_down d-flex d-lg-flex d-none">
           <div class="case_left">
-           <div class="box">
+           <div class=" box">
            <h2>client:</h2>
 
              <h4>какая-то компания </h4>
@@ -141,69 +402,126 @@
            <h2>website</h2>
            
               <h4>http://www.somedimain.com</h4>
+              <br>
+             
               </div> 
+            
+               <form class="class " action="http://www.somedimain.com" method="get">
+  <input class="btn btn-primary px-auto text-center" type="submit" name="123" value="visit live site" />
+</form>  
               </div> 
+              
               
 
         
             <div class="case_right">
-              <div class="box2">
+              <div class=" px-3 box2 ">
               <h2>Название проекта:</h2>
               <br>
-           <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore saepe adipisci illo expedita recusandae dolore pariatur ipsam harum nesciunt, cum. ipsum dolor sit amet, consectetur adipisicing elit. Aliquam iusto ab optio, magnam similique tenetur obcaecati sunt sapiente blanditiis delectus. </h4>
+           <h4 class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore saepe adipisci illo expedita recusandae dolore pariatur ipsam harum nesciunt, cum. ipsum dolor sit amet, consectetur adipisicing elit. Aliquam iusto ab optio, magnam similique tenetur obcaecati sunt sapiente blanditiis delectus. </h4>
           
 </div> </div>
           <br>
-           <!-- кнопка-->
-            <form class="class" action="http://www.somedimain.com" method="get">
-  <input type="submit" name="123" value="visit live site" />
-</form>  
+         
+           
              
           
         </DIV>
-        </div>
-       
+         <div class=" d-lg-none d-block" > 
+         
+          <div class=" card-header">
+    <ul class=" nav  nav-tabs card-header-tabs col" id="myTab" role="tablist">
+      <li class="nav-item col-4" role="presentation">
+        <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">client:</a>
+      </li>
+      <li class="nav-item col-4" role="presentation">
+        <a class="nav-link " id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">website</a>
+      </li>
+      <li class="nav-item col-4">
+        <a class="nav-link " id="disabled-tab" data-bs-toggle="tab" href="#disabled" role="tab" aria-controls="disabled"  aria-selected="false">name</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card shadow p-1 mb-5 bg-body rounded   " style="height:  45%;">
+  <div class="card-body " >
+    <div class="  tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+  <br> какая-то компания
+      </div>
+      
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+<br> http://www.somedimain.com
+     <br> <br> 
+     
+      </div>
+      
+      <div class="tab-pane fade" id="disabled" role="tabpanel" aria-labelledby="disabled-tab">
+  <br>     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore saepe adipisci illo expedita recusandae dolore pariatur ipsam harum nesciunt, cum. ipsum dolor sit amet, consectetur adipisicing elit. Aliquam iusto ab optio, magnam similique tenetur obcaecati sunt sapiente blanditiis delectus.
+      </div>
+    
     </div>
-    <div class="cash">
+  </div>
+        </div>
+         <form class="class " action="http://www.somedimain.com" method="get">
+  <input class="btn btn-primary px-auto text-center" type="submit" name="123" value="visit live site" />
+</form> </div></div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+    </div><div class="card shadow p-3 mb-5 bg-body rounded">
+    <br>
+         <div class="cash">
           <a name="e"></a>
           <h2>расчет стоимости</h2>
           <br>
-          <h3>тип сайта</h3>
-          <select name="123" id="12">
+           <div >
+          <h3 class="float-start ms-5">тип сайта</h3>
+         <br><br>
+          <select class=" col-11  px-4" style="height:3rem" name="123" id="12">
+             <option   value="1">  Выберите пункт</option>
+              <option value="2">...</option>
+          </select>
+          <br><br>
+            <h3 class="float-start mx-5">дизайн</h3>
+          <br><br>
+          <select class="col-11 px-4"style="height:3rem" name="234" id="12">
+          
+            <option value="1">  Выберите пункт</option>
+              <option value="2">...</option>
+          </select>
+         <br><br>
+          <h3 class="float-start mx-5">адаптивность</h3>
+          <br><br>
+          <select class="col-11 px-4"style="height:3rem" name="345" id="12">
               
-             <option value="1">Выберите пункт</option>
+            <option value="1">  Выберите пункт</option>
               <option value="2">...</option>
           </select>
           <br>
-            <h3>дизайн</h3>
-          <select name="234" id="12">
-              
-            <option value="1">Выберите пункт</option>
-              <option value="2">...</option>
-          </select>
-         <br>
-          <h3>адаптивность</h3>
-          <select name="345" id="12">
-              
-            <option value="1">Выберите пункт</option>
-              <option value="2">...</option>
-          </select>
+          <br>
+          <br>
+      <div class="m-auto col-11 pb-2 mb-4 text-danger border-bottom border-danger">
+
+</div>
+        <div class="col-11 m-auto">
+        <span class="float-start">Cроки</span>   <span class="float-end">0</span>
           
-          <h5 class=clas>Cроки</h5> <span>0</span>
-          
-        
-           <h5>Cтоимость</h5> <span>0</span>
-        </div>
+     <br>
+        <span class="float-start">Cтоиммость</span>   <span class="float-end">0</span>
+           <br><br><br>
+        </div>  </div></div></div></div>
         <br>
         <br>
         <br>
         <br>
         <br>
       
-        
+        <div class="col-12 text-center">
             <div class="parallax">
-       
-           
+      
+          <div class="container col-8 text-center"> 
         
        
      
@@ -212,89 +530,159 @@
             <h2 >немного статистики</h2>
             <br>
             <p class=orang  >_________ <br></p>
-<div class="loop">
-  <img class=pr src="img/smile.png" alt="">
+            <div class="row g-2 g-xl-4 ">
+<div class="col-lg-3 col-6 ">
+ <div class=" mx-auto my-3" style="height: 25%; width:50%;">
+  <img class="pr  " src="img/smile.png" alt="">
+</div>
+<div class=" mx-auto my-3">
 <h2>120</h2>
 <h3>счастливых клиентов</h3>
-                </div>
-<div class="loop">
-            <img  class="pr" src="img/skab.png" alt="">
+                </div></div>
+<div class="col-lg-3 col-6 ">
+           <div class="mx-auto my-3"style="height: 25%; width: 50%;">
+            <img  class="pr pt-1" src="img/skab.png" alt="">
+            </div>
+            <div class=" mx-auto my-3">
             <h2>4.600</h2>
             <h3>часов работы</h3>
             
-          </div>
-<div class="loop">
-
-           <img class="pr" src="img/gal.png" alt="">
-            <h2>340</h2>
+          </div></div>
+<div class="col-lg-3 col-6 ">
+<div class="mx-auto my-3 "style="height: 25%; width:50%;">
+           <img class="pr ps-2 pt-1 " src="img/gal.png" alt="">
+           </div>
+            <div class=" mx-auto my-3">
+             <h2>340</h2>
             <h3>проектов завершено </h3>
           
-          </div>
-<div class="loop">
-
-           <img class="pr" src="img/cup.png" alt="">
-            <h2>23</h2>
+          </div></div>
+<div class="col-lg-3 col-6 ">
+<div class="mx-auto my-3 "style="height: 25%; width: 50%;">
+           <img class="pr " src="img/cup.png" alt="">
+           </div>
+            <div class=" mx-auto my-3">
+             <h2>23</h2>
             <h3>наград получено</h3>
             
-            </div>
+            </div>    </div>   </div>
             
- </div>
+ </div></div></div>  <div class="container col-8 text-center">
+     <br>
+     <br>
+     <br>
+    
+     <br>
       <div class="mask"></div>
         
-          </div>
+          </div>  </div>
         
-              
+              <div class="container col-11 text-center">
         <div class="komments">
             <a name="r"></a>
-            <h2>отзывы</h2>
+            <h2 >отзывы</h2>
                <br>
             <p class=orang>_________ <br>
+              <br>
+              <br>
+              <br>
                <img class="boro" src="img/bor.png" alt="фотка"> </p>
             <div class="lorop">
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vitae ratione perspiciatis doloremque sapiente quo ab magni cum repellendus ullam, eum quidem, ipsa nulla numquam.</h3><br><br><h3><span class="misa">Михаил </span>,Ген директор ПАО"Газпром".</h3>
+            <h3 class="h5 col-8 m-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vitae ratione perspiciatis doloremque sapiente quo ab magni cum repellendus ullam, eum quidem, ipsa nulla numquam.</h3><br><br><h3 class="h5"><span class="misa h4">Михаил </span>,Ген директор ПАО"Газпром".</h3>
             
             </div>
             
-            <br>
-            
+            <br>   <br>   <br>   <br>
+             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+             <div class="carousel-indicators ">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class=" bg-dark" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class=" bg-dark" aria-label="Slide 3"></button>
+  </div></div>
+        </div> <br>
+        <br>
+        <br>
+        <br>
+        <br>
         </div>
-        <div class="contacts">
-           <a name="t"></a>
-           <p><a name="dow"></a></p> 
-            <h2>МОИ КОНТАКТЫ</h2>
-             <br>
+       
+        <div class="por contacts container-fluid">
+          <div class=" por container col-8 text-center ">
+       <div>
+      <div class=" d-none d-xl-block">
+          <br>
+          <br>
+          <br>
+        
+      </div>
+           
+            <h2 class="mt-4">МОИ КОНТАКТЫ</h2>
+            
+            
             <p class=orang>_________ <br>
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h3>
-        <br><br>
-           <div class="leika">
-            <div class="lopata">
-            <img class="lipton" src="img/geo.png" alt="фотка"> 
-            <h4>санкт петербург</h4>
+        <br>     <br>
+           <div class="row-1 d-none d-xxl-flex px-5 mx-5">
+            <div class="lopata col-4">
+            <img class="lipton"style="height:60%" src="img/geo.png" alt="фотка"> 
+            <h5>санкт петербург</h5>
             
                        </div>
-                        <div class="lopata">
-                        <img class="lipton" src="img/kon.png" alt="фотка"> 
+                        <div class="lopata col-4">
+                        <img class="lipton"style="height:60%" src="img/kon.png" alt="фотка"> 
 
-            <h4>info@companyname.com</h4>
+            <h5>info@companyname.com</h5>
            
                        </div>
-                        <div class="lopata">
+                        <div class="lopata col-4" >
                        
-                        <img class="lipton" src="img/tell.png" alt="фотка"> 
+                        <img class="lipton"style="height:60%" src="img/tell.png" alt="фотка"> 
 
-                            <h4>+7 999 999-99-99</h4>
+                            <h5>+7 999 999-99-99</h5>
             </div>
                  </div>   
-             
-                 <div class="loper"> 
-            <h7>оставьте мне сообщение</h7>
-            <form action="...">
-                <input type="text" name="2"  placeholder="имя" />
+                 <div class="card   d-block d-xxl-none">
+  <div class="card-header">
+    <ul class=" nav  nav-tabs card-header-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="home" data-bs-toggle="tab" href="#home1" role="tab" aria-controls="home" aria-selected="true">город</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="profile" data-bs-toggle="tab" href="#profile1" role="tab" aria-controls="profile" aria-selected="false">почта</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " id="disabled" data-bs-toggle="tab" href="#disabled1" role="tab" aria-controls="disabled"  aria-selected="false">номер</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <div class="  tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home1" role="tabpanel" aria-labelledby="home">
+     Г. Санкт-петербург
+      </div>
+      
+      <div class="tab-pane fade" id="profile1" role="tabpanel" aria-labelledby="profile">
+    info@companyname.com
+      </div>
+      
+      <div class="tab-pane fade" id="disabled1" role="tabpanel" aria-labelledby="disabled">
+     +7 999 999-99-99
+      </div>
+    
+    </div>
+  </div>
+</div>
+             <br><br>
+                 <div class="por col-12 col-md-8 m-auto"> 
+            <h2 class="d-block">оставьте мне сообщение</h2>
+            <br>
+            <form class="d-inline" action="...">
+                <input  class="float-start" style="width: 45%" type="text" name="2"  placeholder="имя" />
+                
+                <input class="float-end" style="width: 45%" type="text" name="3" placeholder="email" />
                 <br><br>
-                <input type="text" name="3" placeholder="email" />
-                <br><br>
-               <p><textarea rows="10" cols="45" name="text"
-                   placeholder="сообщение"
+               <p><textarea rows="3" cols="24" name="text"
+                   placeholder="сообщение" style="width: 100%"
                ></textarea></p>
                 <br>
                 
@@ -303,46 +691,55 @@
                   placeholder="сообщение" />
 -->
                
-                <input type="submit" name="5" value="отправить" />
-                
+                <input class="btn btn-outline-light " type="submit" name="5" value="отправить" />
+               
               
            
             </form>
             
+             <br>
+                <br>
+               
             
-            
-            <div class="kamr">
-                <img class="pr"   src="../src/img/fb.png" alt="">
-               <img class="pr" src="../src/img/twit.png" alt="">
-               <img class="pr" src="../src/img/ball.png" alt="">
-               <img class="pr" src="../src/img/cat.png" alt="">
-               <img class="pr" src="../src/img/inst.png" alt="">
-               <img class="pr" src="../src/img/in.png" alt="">
-            
+            <div class="por d-flex px-auto   row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-6 row-cols-xxl-12 ">
+                           <div class="col loperw">
+                <img class="mx-3 por "   src="../src/img/fb.png" alt="">
+                </div>     <div class="col loperw">
+                <img class="mx-3 por " src="../src/img/twit.png" alt="">
+                </div>     <div class="col loperw">
+                <img class="mx-3 por " src="../src/img/ball.png" alt="">
+                </div>     <div class="col loperw">
+                <img class="mx-3 por " src="../src/img/cat.png" alt="">
+                </div>     <div class="col loperw">
+                <img class="mx-3 por " src="../src/img/inst.png" alt="">
+                </div>     <div class="col loperw">
+                <img class="mx-3 por " src="../src/img/in.png" alt="">
+              </div>
                 
                 
                 
-            </div></div>
-        </div> 
-        <main>
-        <H3 class=google><br><br>
-        <br>
-        <br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br></H3>
+            </div></div></div>
+        </div> </div> 
+       
+        
+        <main class="google">
+        
         </main>
-        <footer>
-            <h3><br>
-            <br>
-            Copyright © 2021 Андрей Браун. Design by Web</h3>
+      
+        <footer  class=" text-center bg-dark" style="height:100%; width:100%">
+          <div class="bg-dark">
+          &shy;
+            <h3 class=" text-light h6" >
+                
             
+            Copyright © 2021 Андрей Браун. Design by Web
+            <br>   <br>
+          
+            </h3>
             
+            </div>
         </footer>
 
 </body>
+
 </html>
