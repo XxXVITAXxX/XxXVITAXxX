@@ -21,13 +21,13 @@ justify-content: space-between;
 float:    right;
 width:    100%;
 height:   100% ;
-background:url(../img/boy.png) 89% 52%/auto 85% no-repeat,URL(../IMG/BACKGROUND.PNG) CENTER/COVER NO-REPEAT;
+background:url(../img/boy.png) 89% 52%/auto 85% no-repeat,URL(../img/background.png) center/cover no-repeat;
 }
 .contacts{
 float:    right;
 width:    100%;
 height:   120% ;
-background:URL(../IMG/fon.PNG) CENTER/COVER NO-REPEAT;
+background:URL(../img/fon.png) center/cover no-repeat;
 }
 
 .contacts h2,.contacts h3,.contacts h4,.contacts h5,.contacts h7{
@@ -38,7 +38,7 @@ background:URL(../IMG/fon.PNG) CENTER/COVER NO-REPEAT;
 float:    right;
 width:    130%;
 height:   20% ;
-background:URL(../IMG/google.png) CENTER/COVER NO-REPEAT;
+background:URL(../img/google.png) center/cover no-repeat;
 }
 
 
