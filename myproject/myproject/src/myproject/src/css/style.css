@@ -26,7 +26,7 @@ background:url(../img/boy.png) 89% 52%/auto 85% no-repeat,URL(../img/background.
 .contacts{
 float:    right;
 width:    100%;
-height:   120% ;
+padding-bottom: 70px;
 background:URL(../img/fon.png) center/cover no-repeat;
 }
 

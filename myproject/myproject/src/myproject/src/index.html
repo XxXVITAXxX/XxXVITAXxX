@@ -1,5 +1,5 @@
 
-
+ 
 
 <html lang="ru">
 <head>
@@ -15,16 +15,14 @@
      
       <link rel="stylesheet" href="css/style.css"> 
       <link rel="stylesheet" href="css/magnific-popup.css"> 
-      
+    
       <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script> 
       <script src="js/newjs.js"></script>   
               
              <script src="js/bootstrap.bundle.min.js"></script> 
              <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
-      
-   
              <script src="js/jquery.magnific-popup.min.js"></script>
- 
+
   
      <script>
   window.onload = function () {
@@ -177,10 +175,24 @@
        <br>
        <br>
          &shy;
-  <h2 class="section fw-bold" id="about"> Обо мне</h2>
-        <p class=orang>_________<br>
+  <h2 class="section fw-bold animateme" id="about"   
+        
+        data-when="enter"
+        data-from="0.4"
+        data-to="0"
+        data-opacity="0"
+        data-translatex="1000"
+        > Обо мне</h2>
+        <p class="orang animateme"         data-when="enter"
+        data-from="0.4"
+        data-to="0"
+        data-opacity="0"
+        data-translatex="1000">_________<br></p>
         <br>
-         <img class=foto  src="img/boy2.png" alt="фотка"></p>
+        
+         <img class="foto"   
+ src="img/boy2.png" alt="фотка"> 
+     
      <br>
      <div class="container col-8">
      <h3 class="h5 justify-content-center" style="width: 100%;">Lorem ipsum dolor sit amet, iste cum, error, fugiat odio nobis ad vel expedita alias neque?</h3>
@@ -382,21 +394,21 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-     <a class="image-popup d-block w-100" title="1/3" href="img/lot.png">
- <img src="img/lot.png" alt="" style="width:100%"/></a>
+     <a class="image-popup d-block w-100 " title="1/3" href="img/lot.png">
+ <img class="reds" src="img/i01_lot.png" data-src="img/lot.png" alt="#" style="width:100%"/></a>
 
      
       
     </div>
     <div class="carousel-item">
- <a class="image-popup d-block w-100" title="2/3" href="img/lot.png">
- <img src="img/lot.png" alt="" style="width:100%"/></a>
+ <a class="image-popup d-block w-100 " title="2/3" href="img/lot.png">
+ <img  class="reds" src="img/i01_lot.png" data-src="img/lot.png" alt="" style="width:100%"/></a>
  
       
     </div>
     <div class="carousel-item">
-     <a class="image-popup d-block w-100" title="3/3" href="img/lot.png">
- <img src="img/lot.png" alt="" style="width:100%"/></a>
+     <a class="image-popup d-block w-100 " title="3/3" href="img/lot.png">
+ <img  class="reds" src="img/i01_lot.png" data-src="img/lot.png" alt="" style="width:100%"/></a>
 
       
     </div>
@@ -550,7 +562,7 @@
   <img class="pr  " src="img/smile.png" alt="">
 </div>
 <div class=" mx-auto my-3">
-<h2 class="counterr" id="counter1">0</h2>
+<h2 class="counterr active" id="counter1">0</h2>
 <h3>счастливых клиентов</h3>
                 </div></div>
 <div class="col-lg-3 col-6 ">
@@ -614,8 +626,8 @@
           
           
           
-          <div id="carouselExampleIndicatorsq" class="carousel carousel-dark slide " style="height: 420px" data-bs-ride="carousel">
-  <div class="carousel-indicators  ">
+          <div id="carouselExampleIndicatorsq" class="carousel carousel-dark slide " style="height: 500px" data-bs-ride="carousel">
+  <div class="carousel-indicators   mt-5  ">
   
     <button type="button" data-bs-target="#carouselExampleIndicatorsq" data-bs-slide-to="0" class="active btn-dark " aria-current="true" aria-label="Slide 0"></button>
     <button type="button" data-bs-target="#carouselExampleIndicatorsq" data-bs-slide-to="1" aria-label="Slide 1"></button>
@@ -724,13 +736,27 @@
   <div class="card-header">
     <ul class=" nav  nav-tabs card-header-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
-        <a class="nav-link active" id="home" data-bs-toggle="tab" href="#home1" role="tab" aria-controls="home" aria-selected="true">город</a>
+        <a class="nav-link active" id="home" data-bs-toggle="tab" href="#home1" role="tab" 
+        
+        aria-controls="home"
+        
+         aria-selected="true">город</a>
+         
       </li>
       <li class="nav-item" role="presentation">
-        <a class="nav-link" id="profile" data-bs-toggle="tab" href="#profile1" role="tab" aria-controls="profile" aria-selected="false">почта</a>
+        <a class="nav-link" id="profile" data-bs-toggle="tab" href="#profile1" role="tab"
+        
+         aria-controls="profile" 
+        
+        aria-selected="false">почта</a>
+        
       </li>
       <li class="nav-item">
-        <a class="nav-link " id="disabled" data-bs-toggle="tab" href="#disabled1" role="tab" aria-controls="disabled"  aria-selected="false">номер</a>
+        <a class="nav-link " id="disabled" data-bs-toggle="tab" href="#disabled1" role="tab" 
+        
+         aria-controls="disabled"
+          
+           aria-selected="false">номер</a>
       </li>
     </ul>
   </div>
@@ -778,26 +804,32 @@
             
              <br>
                 <br>
+                <br>
+          
+                               <br>
+                <br>
+                <br>
                
             
-            <div class="por d-flex px-auto   row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-6 row-cols-xxl-12 ">
+            <div class="por d-flex px-auto   row row-cols-3 row-cols-sm-3 row-cols-md-6 row-cols-lg-6 row-cols-xxl-12 gy-5">
                            <div class="col loperw">
-                <img class="mx-3 por "   src="../src/img/fb.png" alt="">
+                <img class="mx-3 por "   src="img/fb.png" alt="">
                 </div>     <div class="col loperw">
-                <img class="mx-3 por " src="../src/img/twit.png" alt="">
+                <img class="mx-3 por " src="img/twit.png" alt="">
                 </div>     <div class="col loperw">
-                <img class="mx-3 por " src="../src/img/ball.png" alt="">
+                <img class="mx-3 por " src="img/ball.png" alt="">
                 </div>     <div class="col loperw">
-                <img class="mx-3 por " src="../src/img/cat.png" alt="">
+                <img class="mx-3 por " src="img/cat.png" alt="">
                 </div>     <div class="col loperw">
-                <img class="mx-3 por " src="../src/img/inst.png" alt="">
+                <img class="mx-3 por " src="img/inst.png" alt="">
                 </div>     <div class="col loperw">
-                <img class="mx-3 por " src="../src/img/in.png" alt="">
+                <img class="mx-3 por " src="img/in.png" alt="">
               </div>
                 
                 
                 
-            </div></div></div>
+            </div>
+            </div></div>
         </div> </div>
          
        <button id="label" type="button" class=" d-none btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -853,6 +885,7 @@
     });
 });
 </script>
+   <script src="js/jquery.scrollme.min.js" ></script>
 </body>
 
 </html>

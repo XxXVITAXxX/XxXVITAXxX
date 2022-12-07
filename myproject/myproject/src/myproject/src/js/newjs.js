@@ -1,3 +1,6 @@
+ 
+  
+
 //  window.onscroll = function() {myFunction()};
 //
 //  function myFunction() {
@@ -51,7 +54,7 @@ $(function(){
             var $target = $(this.hash);
             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
             if ($target.length) {
-                var targetOffset = $target.offset().top - ($("#nav").outerHeight(true)+ 76); 
+                var targetOffset = $target.offset().top - ($("#nav").outerHeight(true)+ 126); 
                 $('html,body').animate({scrollTop: targetOffset}, 50);
                 return false;
             }
@@ -270,12 +273,13 @@ setTimeout(function(){
 //                }
 //            });
 //        }
-
+ jQuery(document).ready(function($) {
+   
  let options = {
             threshold: [0.5]
         };
         let observer = new IntersectionObserver(onEntry, options);
-        let elements = $('.counterq');
+        let elements = $('.counterr');
 
         elements.each((i, el) => {
             observer.observe(el);
@@ -285,15 +289,44 @@ setTimeout(function(){
         function onEntry(entry) {
             entry.forEach(change => {
                 if (change.isIntersecting) {
-                    change.target.classList.add('element-show');
+                      if ($(elements).hasClass('active')) {
+                               $(elements).removeClass('active');
+                 
 
                     start();
+                      }
                 }
             });
         }
 
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    });
 
-  
+ jQuery(document).ready(function($) {
+let options = {
+            threshold: [0.5]
+        };
+        let observers = new IntersectionObserver(onEntrys, options);
+        let elementss = $('.reds');
+
+        elementss.each((i, el) => {
+            observers.observe(el);
+        });
+
+ });
+        function onEntrys(entrys) {
+            entrys.forEach(changes => {
+                if (changes.isIntersecting) {
+            changes.target.src =  changes.target.dataset.src;
+                 
+
+               
+                      }
+                }
+            )};
 
 
 
